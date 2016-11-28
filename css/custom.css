@@ -51,6 +51,11 @@ a.navbar-brand {
 #carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
 #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
 
+img.img-thumbnail {
+	width: 200px;
+	height: 128px;
+}
+
 img{
 	cursor: pointer;
 	transition: all .5s ease;
