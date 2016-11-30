@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 50px;
-    background-color: #f0f0f0;
+    background-color: #dfdfda;
 }
 
 .containers {
@@ -36,9 +36,9 @@ a.navbar-brand {
 	height: 50%px;
 	left: 10px;
 	top: 10px;
-	background: #f5f5f5;
+	background: #dfdfda;
 	overflow: hidden;
-	border: solid 1px #f5f5f5;
+	border: solid 1px #dfdfda;
 }
 
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
@@ -117,8 +117,12 @@ ul.nav, .jumbotron h1 {
 }
 
 ul.nav {
-	font-size: 13px;
+	font-size: 15px;
 	margin-right: auto;
+}
+
+img#homepagelogo {
+	width: 352px;
 }
 
 footer {
@@ -129,7 +133,7 @@ footer {
 }
 
 #get-involved {
-	background-color: #f5f5f5;
+	background-color: #dfdfda;
 }
 
 /* 
@@ -166,11 +170,11 @@ footer {
 	text-align: center;
 	padding-bottom: 30px;
 	padding-top: 30px;
-	background-color: #f0f0f0;
+	background-color: #dfdfda;
 }
 
 #about-us {
-	background-color: #f0f0f0;
+	background-color: #dfdfda;
 }
 
 .homepage h2, .homepage h3 {
@@ -192,20 +196,33 @@ footer {
 	font-weight: 300;
 }
 
-.homepage a {
-	color: #e74c3c;
+.container-homepage a {
+	color: grey;
 }
 
 .homepage a:hover {
-	color: #e74c3c;
+	color: #d82333;
 	text-decoration: none;
 	opacity: .8;
+}
+
+a.btn-default {
+	color: #dfdfda;
+	background-color: #d82312;
+}
+
+.img-thumbnail {
+	padding: 1px;
 }
 
 .homepage hr {
 	border-top: 1px solid #e74c3d;
 	width: 200px;
 	margin-top: 15px;
+}
+
+a {
+	color: #d82312;
 }
 
 	
