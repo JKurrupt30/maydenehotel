@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 50px;
-    background-color: #dfdfda;
+    background-color: #f3f3f3;
 }
 
 .containers {
@@ -36,9 +36,9 @@ a.navbar-brand {
 	height: 50%px;
 	left: 10px;
 	top: 10px;
-	background: #dfdfda;
+	background: #f3f3f3;
 	overflow: hidden;
-	border: solid 1px #dfdfda;
+	border: solid 1px #f3f3f3;
 }
 
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
@@ -133,7 +133,7 @@ footer {
 }
 
 #get-involved {
-	background-color: #dfdfda;
+	background-color: #f3f3f3;
 }
 
 /* 
@@ -170,11 +170,11 @@ footer {
 	text-align: center;
 	padding-bottom: 30px;
 	padding-top: 30px;
-	background-color: #dfdfda;
+	background-color: #f3f3f3;
 }
 
 #about-us {
-	background-color: #dfdfda;
+	background-color: #f3f3f3;
 }
 
 .homepage h2, .homepage h3 {
@@ -223,6 +223,13 @@ a.btn-default {
 
 a {
 	color: #d82312;
+}
+
+h4 {
+	font-family: futura;
+	font-size: 26px;
+	color: #d82312;
+	text-decoration: underline;
 }
 
 	
