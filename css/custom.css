@@ -60,10 +60,7 @@ img{
 	cursor: pointer;
 	transition: all .5s ease;
 }
-img:hover {
-	-webkit-filter: grayscale(0);
-  transform: scale(1.1,1.1);
-}
+
 
 @keyframes rotation {
 	from {
@@ -106,9 +103,10 @@ nav li a {
 	background-color: #d82312;
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-  width: 1450px;
-  height: 600px;
+.row {
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 10px;
 }
  
 
@@ -129,7 +127,10 @@ footer {
 	background-color: #d82312;
 	height: 60px;
 	padding-bottom: 30px;
-	padding-left: 60px;
+	padding-left: 0px;
+	text-align: center;
+	padding-top: 21px;
+	color: #f3f3f3;
 }
 
 #get-involved {
